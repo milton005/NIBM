@@ -1,0 +1,240 @@
+<resources>
+    <string name="app_name">NIBM</string>
+    <string name="action_settings">Settings</string>
+    <string name="connectivity">Check your connectivity!</string>
+    <string name="logout">Logout</string>
+
+    <!--login-->
+    <string name="login">Login</string>
+    <string name="hint_login_username">User Name</string>
+    <string name="hint_login_password">Password</string>
+
+    <!--drawer-->
+    <string name="closeDrawer">Navigation View</string>
+    <string name="openDrawer">Navigation View Closed</string>
+    
+    
+
+    <!--home-->
+
+    <string-array name="home_items_array">
+        <item>Study\nMaterials</item>
+        <item>Video\nTutorial</item>
+        <item>Assignment</item>
+        <item>Online\nPaper</item>
+        <item>Exam\nSchedule</item>
+        <item>Fee\nDetails</item>
+        <item>Support</item>
+        <item>Other\nPayment Options</item>
+    </string-array>
+
+    <array name="home_icons">
+        <item>@drawable/ic_action_book</item>
+        <item>@drawable/ic_action_play</item>
+        <item>@drawable/ic_action_edit</item>
+        <item>@drawable/ic_action_mouse</item>
+        <item>@drawable/ic_action_list</item>
+        <item>@drawable/ic_action_done</item>
+        <item>@drawable/ic_action_call</item>
+        <item>@drawable/_ic_action_other</item>
+    </array>
+
+    <!--initial-->
+
+    <string-array name="initial_items_array">
+        <!--<item>MBA Journal</item>
+        <item>Prospectus\nDownload</item>
+        <item>Apply Online</item>
+        <item>Sample Videos</item>
+        <item>Courses</item>
+        <item>Students Login</item>
+        <item>About us</item>
+        <item>Contact us</item>
+        <item>Other\nPayment Options</item>-->
+        <item>Courses</item>
+        <item>Apply Online</item>
+        <item>Sample MBA Videos</item>
+        <item>"Prospectus\nDownload"</item>
+        <item>"Students Login/LMS"</item>
+        <item>"Contact us\n/Enquiry"</item>
+        <item>About us</item>
+        <item>MBA Journals</item>
+        <item>Webinar</item>
+        <item>Free Prospectus</item>
+    </string-array>
+
+    <array name="initial_icons">
+        <!--<item>@drawable/ic_action_closed_book</item>
+        <item>@drawable/ic_action_download</item>
+        <item>@drawable/ic_action_web</item>
+        <item>@drawable/ic_action_video</item>
+        <item>@drawable/ic_action_note</item>
+        <item>@drawable/ic_action_sddress</item>
+        <item>@drawable/ic_action_suitcase</item>
+        <item>@drawable/ic_action_send</item>
+        <item>@drawable/ic_action_window</item>-->
+        <item>@drawable/ic_action_note</item>
+        <item>@drawable/ic_action_web</item>
+        <item>@drawable/ic_action_video</item>
+        <item>@drawable/ic_action_download</item>
+        <item>@drawable/ic_action_sddress</item>
+        <item>@drawable/ic_action_send</item>
+        <item>@drawable/ic_action_suitcase</item>
+        <item>@drawable/ic_action_closed_book</item>
+        <item>@drawable/ic_webinar</item>
+        <item>@drawable/ic_freeprospectus</item>
+    </array>
+    
+    <!--download-->
+    
+    <string name="hint_name">Name</string>
+    <string name="hint_course">Name</string>
+    <string name="hint_place">Place</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_phone">Phone</string>
+    <string name="hint_enquiry">Enquiry Details</string>
+    <string name="hint_submit">Submit</string>
+<!--freeprospec-->
+    <string name="uname">Your Name</string>
+    <string name="umail">Your Email</string>
+    <string name="uphone">Your Phone no</string>
+    <string name="uhousename">Your House name</string>
+    <string name="uhouseno">Your House Number</string>
+    <string name="ustreet">Your Street/lane</string>
+    <string name="ulocation">Your Location</string>
+    <string name="upostoffice">Your Post office</string>
+    <string name="ucity">Your City</string>
+    <string name="urpincode">Your Pin code</string>
+    <string name="Ustate">Your State</string>
+    <string-array name="courses_items_array">
+        <item>Course</item>
+        <item>One year Online MBA</item>
+        <item>One year Online Exe MBA</item>
+        <item>Two year Online MBA</item>
+        <item>One year Online PGDBA</item>
+        <item>Fast Track MBA</item>
+        <item>Six months Online DBA</item>
+    </string-array>
+
+    <!--profile-->
+    <string-array name="profile_items_array">
+        <item>First Name</item>
+        <item>Last Name</item>
+        <item>DOB</item>
+        <item>Gender</item>
+        <item>Parents Name</item>
+        <item>Country</item>
+        <item>State</item>
+        <item>District</item>
+        <item>City</item>
+        <item>Pin Code</item>
+        <item>Permanent\nAddress</item>
+        <item>Email</item>
+        <item>Phone</item>
+        <item>Mobile</item>
+        <item>Country for\nCommunication</item>
+        <item>State for\nCommunication</item>
+        <item>District for\nCommunication</item>
+        <item>City for\nCommunication</item>
+        <item>Pincode for\nCommunication</item>
+        <item>Qualification</item>
+        <item>Employed In</item>
+        <item>Organization\nName</item>
+        <item>Organization\nPlace</item>
+        <item>Job Nature</item>
+    </string-array>
+    <!--batch-->
+    <string-array name="batchprofile_items_array">
+        <item>Institute</item>
+        <item>Course Opted</item>
+        <item>Year</item>
+        <item>Month</item>
+        <item>Roll No</item>
+        <item>Enrollment No</item>
+        <item>Enrollment\nDate</item>
+        <item>Enquiry Date</item>
+        <item>Payment Type</item>
+        <item>Payment Mode</item>
+        <item>Electives</item>
+    </string-array>
+
+    <!--assignment detail-->
+    <string-array name="assignmentdetail_items_array">
+        <item>Name</item>
+        <item>Type</item>
+        <item>Course</item>
+        <item>Semester</item>
+        <item>Year</item>
+        <item>Month</item>
+        <item>Assigned Date</item>
+        <item>Completion\nDate</item>
+        <item>Assignment\nFiles</item>
+    </string-array>
+
+
+    <!--exam schedule-->
+    <string-array name="exam_schedule_items_array">
+        <item>Subject</item>
+        <item>Course</item>
+        <item>Semester</item>
+        <item>Year</item>
+        <item>Month</item>
+        <item>Exam Date</item>
+        <item>Exam to Date</item>
+        <item>Time From</item>
+        <item>Time To</item>
+        <item>Exam Mode</item>
+        <item>Exam Status</item>
+    </string-array>
+
+    <!--fees details-->
+    <string-array name="fees_items_array">
+        <item>Fee Name</item>
+        <item>Fee Amount</item>
+        <item>Paid Fee</item>
+        <item>Payment Type</item>
+        <item>Payment\nMode</item>
+        <item>Pay Status</item>
+        <item>Receipt No</item>
+        <item>DD No</item>
+        <item>DD Date</item>
+        <item>Cheque No</item>
+        <item>Cheque Date</item>
+        <item>Bank Name</item>
+        <item>Card Type</item>
+        <item>Card Number</item>
+        <item>Transaction ID</item>
+        <item>Transaction Date</item>
+    </string-array>
+
+
+    <!--support-->
+    <string name="support_description">For your post admission queries, you may
+    contact our support team at any of the given numbers or mail to them at the given
+    email address</string>
+    <string name="support_no_1">0471-4014291</string>
+    <string name="support_no_2">+91 9037045040</string>
+    <string name="support_email_1">support@nibmglobal.com</string>
+    <string name="support_email_2">support1@nibmglobal.com</string>
+
+    <!--question papers-->
+    <string-array name="questionpapers_items_array">
+        <item>Id</item>
+        <item>Year</item>
+        <item>Month</item>
+        <item>Mode</item>
+        <item>Exam Date</item>
+        <item>Time From</item>
+        <item>Time To</item>
+        <item>End Time</item>
+        <item>From Date</item>
+        <item>To Date</item>
+        <item>Course Name</item>
+        <item>Subject Name</item>
+        <item>Schedule Name</item>
+        <item>Semester Name</item>
+        <item>Paper File</item>
+    </string-array>
+
+
+</resources>

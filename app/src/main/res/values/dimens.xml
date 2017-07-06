@@ -1,0 +1,32 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="toolbar_elevation">4dp</dimen>
+    <dimen name="navigation_drawer_width">320dp</dimen>
+
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="padding_normal">8dp</dimen>
+    <dimen name="padding_large">15dp</dimen>
+
+    <dimen name="hight_edittext">55dp</dimen>
+
+    <!--drawer dimen-->
+    <dimen name="divider_size">.9dp</dimen>
+    <dimen name="divider_large_size">1.5dp</dimen>
+    <dimen name="actions_spacing">44dp</dimen>
+
+    <!--splash-->
+    <dimen name="splsh_margin_top">50dp</dimen>
+
+    <!--login-->
+    <dimen name="login_margin_top">20dp</dimen>
+
+    <!--main-->
+    <dimen name="margin_main_top">10dp</dimen>
+    <dimen name="padding_main_text">2dp</dimen>
+    <dimen name="grid_hight">170dp</dimen>
+
+
+</resources>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.MaterialSheetFab.ToolBar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_small">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0.5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="Id"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textDispatchedId"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="3"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="dddd"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0.5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="Dispatched\nMedium"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textDispatchedMedium"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="3"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="dddd"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0.5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="Dispatched\nDate"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textDispatchedDate"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="3"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="dddd"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0.5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="Issue Status"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textDispatchedIsssueStatus"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="3"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="dddd"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0.5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="Comments"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:id="@+id/textDispatchedComments"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="3"
+                android:background="@color/colorPrimaryLight"
+                android:gravity="center_vertical"
+                android:padding="@dimen/padding_normal"
+                android:text="dddd"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="0.5dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="@dimen/padding_normal"
+                android:text="Semester"
+                android:textColor="@color/colorWhite" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="1dp"
+                android:layout_marginStart="1dp"
+                android:layout_weight="3"
+                android:background="@color/colorAccent"
+                android:gravity="center"
+                android:padding="@dimen/padding_normal"
+                android:text="Name"
+                android:textColor="@color/colorWhite" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="0.5dp">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/studymaterials"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

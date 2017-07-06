@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightWhite"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/Widget.MaterialSheetFab.ToolBar">
+
+    </android.support.v7.widget.Toolbar>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/padding_small">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Name"
+                    android:textColor="@color/colorWhite" />
+
+
+                <TextView
+                    android:id="@+id/textName"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Type"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textType"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Course"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textCourse"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Semester"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textSemester"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Year"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textYear"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Month"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textMonth"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Assigned Date"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textAssignedDate"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Completion\nDate"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textCompletionDate"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+
+            <TableRow
+                android:background="@drawable/cell_shape"
+                android:gravity="center">
+
+                <TextView
+                    android:layout_column="1"
+                    android:padding="@dimen/padding_normal"
+                    android:text="Assignment\nFiles"
+                    android:textColor="@color/colorWhite" />
+
+                <TextView
+                    android:id="@+id/textAssignmentFiles"
+                    android:gravity="start"
+                    android:padding="@dimen/padding_normal"
+                    android:singleLine="false"
+                    android:autoLink="web"
+
+                    android:textColor="@color/colorWhite" />
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</LinearLayout>

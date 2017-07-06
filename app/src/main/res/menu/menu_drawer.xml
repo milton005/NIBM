@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/navi_item_create_notifications_sound"
+            android:title=""
+
+            app:actionLayout="@layout/sample"
+            app:showAsAction="always" />
+
+    </group>
+</menu>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="9dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardElevation="0.01dp">
+        <RelativeLayout
+            android:id="@+id/top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="160dp">
+            <!--<WebView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="150dp"-->
+            <!--android:scaleType="fitXY"-->
+                <!--android:id="@+id/thumbnailyotube"-->
+                <!--&gt;</WebView>-->
+            <com.google.android.youtube.player.YouTubeThumbnailView
+                android:id="@+id/youtube_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:scaleType="fitXY"
+                android:visibility="visible"/>
+            <!--<ImageView-->
+            <!--android:id="@+id/homeImages"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:scaleType="fitXY" />-->
+
+            <TextView
+                android:id="@+id/textwebinar"
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_gravity="bottom"
+                android:background="#ff444444"
+                android:gravity="center"
+                android:maxLines="2"
+                android:paddingLeft="5dp"
+                android:paddingStart="5dp"
+                android:paddingRight="2dp"
+                android:paddingEnd="2dp"
+                android:text="Test"
+                android:ellipsize="end"
+                android:textColor="#fff"
+                />
+            <RelativeLayout android:id="@+id/relativeLayout_over_youtube_thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+
+                android:background="@android:color/transparent"
+                android:visibility="visible">
+
+                <ImageView android:id="@+id/btnYoutube_player"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="center"
+                    android:src="@drawable/ic_action_play"/>
+
+            </RelativeLayout>
+
+
+            <!--<TextView-->
+                <!--android:id="@+id/textwebinar"-->
+                <!--android:layout_width="fill_parent"-->
+                <!--android:layout_height="50dp"-->
+               <!--android:layout_marginTop="150dp"-->
+                <!--android:background="#ff444444"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:maxLines="2"-->
+
+                <!--android:paddingStart="5dp"-->
+                <!--android:paddingRight="2dp"-->
+                <!--android:paddingEnd="2dp"-->
+                <!--android:text="Test"-->
+                <!--android:ellipsize="end"-->
+                <!--android:textColor="#fff"-->
+                <!--/>-->
+            <!--<TextView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="25dp"-->
+                <!--android:layout_marginTop="175dp"-->
+                <!--android:gravity="center"-->
+                <!--android:paddingLeft="5dp"-->
+                <!--android:background="#ff444444"-->
+                <!--android:paddingStart="5dp"-->
+                <!--android:paddingRight="2dp"-->
+                <!--android:paddingEnd="2dp"-->
+                <!--android:text="Test"-->
+                <!--android:maxLines="1"-->
+                <!--android:id="@+id/textViewwebinar2"-->
+                <!--android:ellipsize="end"-->
+                <!--android:textColor="#fff"-->
+
+                <!--/>-->
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>
